@@ -159,3 +159,19 @@ name    | **String** | 玩家昵称
 avatar  | **Int**    | 头像ID
 rank    | **Int**    | 排名
 score   | **Double** | 积分
+
+
+## 7. get init config 
+
+**PATH** `/init/config`
+
+获取初始配置数据
+
+### Request Body
+No Request Data
+
+### Response Data
+Field   | Type  | Description
+--------|-------|------------
+isAppStoreReview  | **Boolean** | 是否appStore提审版本
+
